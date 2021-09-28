@@ -1,0 +1,187 @@
+html 
+{
+    width: 100%;
+}
+
+body 
+{
+    background-color:#DDFFE7;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav
+{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 3px;
+    padding: 10px 40px ;
+    background-color:#29A0B1;
+    font-family: sans-serif;
+    position: fixed;
+    top:0;
+    left: 0;
+    box-shadow:2px 2px 30px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 1;
+    background-image: url("/quiz1/img/bg2.jpg")
+}
+
+li 
+{
+    display: inline;
+}
+
+.button
+{
+    display: flex;
+    margin-left: -3%;
+}
+
+.button a
+{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+.button a:hover 
+{
+    background-color: #167D7F;
+    color: white !important;
+    padding: 10px 10px;
+}
+
+.home
+{
+    padding-top: 5cm;
+    color: rgb(0, 0, 0);
+    font-family: Trebuchet MS;
+    font-size: larger;
+    line-height: 1cm;
+    padding-top: 1cm;
+    text-align: center;
+    margin: 100px;
+}
+
+.profile
+{
+    padding-top: 3cm;
+    color: rgb(0, 0, 0);
+    font-family: Trebuchet MS;
+    font-size: larger;
+    position: relative;
+    top: 30%;
+    left: 30%;
+    width: 600px;
+    background-size: cover;
+    height: 50%;
+    width: auto;
+}
+
+.profile img
+{
+    max-width:15%;
+    height:auto;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: inline;
+    float: left;
+    margin: 0px 60px;
+}
+
+.hometown
+{
+    
+    padding-top: 3cm;
+    color: rgb(0, 0, 0);
+    font-family: Trebuchet MS;
+    font-size: larger;
+    position: relative;
+    top: 30%;
+    left: 30%;
+    width: 600px;
+    background-size: cover;
+    height: 50%;
+    width: auto;
+}
+
+.hometown img
+{
+    
+    display: inline;
+    float: left;
+    margin: 0px 60px;
+}
+
+.food
+{
+    margin:90px;
+    color: rgb(0, 0, 0);
+    font-family: Trebuchet MS;
+    font-size: larger;
+    position: relative;
+    top: 30%;
+    left: 30%;
+    width: 600px;
+    background-size: cover;
+}
+
+.food img
+{
+    max-width:70%;
+    height:auto;
+    margin: 90px;
+}
+
+.tourist
+{
+    margin:90px;
+    color: rgb(0, 0, 0);
+    font-family: Trebuchet MS;
+    font-size: larger;
+    position: relative;
+    top: 30%;
+    left: 30%;
+    width: 600px;
+    background-size: cover;
+}
+
+.tourist img
+{
+    max-width:70%;
+    height:auto;
+    margin: 90px;
+}
+
+.photo 
+{
+    padding-top: 3cm;
+    align-content: center;
+}
+
+.hylink
+{
+    color: #167D7F;
+}
+
+.card 
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+  
+.card:hover 
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.container 
+{
+    padding: 2px 16px;
+}
